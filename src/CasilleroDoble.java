@@ -1,7 +1,7 @@
 public class CasilleroDoble <T1, T2>{
 	
 	private T1 x; 
-	private T2 y[];
+	private T2[] y;
 	
 	public CasilleroDoble(){}
 
@@ -24,10 +24,10 @@ public class CasilleroDoble <T1, T2>{
 		this.y = y;
 	}
 	
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		
-		Double arrayDouble[] = {1.1 , 2.2, 3.3};
-		Integer arrayInteger[] = {1 , 2, 3};
+		Double[] arrayDouble = {1.1 , 2.2, 3.3};
+		Integer[] arrayInteger = {1 , 2, 3};
 		
 		CasilleroDoble <Integer,Double> a = new CasilleroDoble<Integer, Double>(5, arrayDouble);
 		
